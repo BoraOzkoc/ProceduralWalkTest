@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class SpiderController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private List<LegController> legList = new List<LegController>();
+
+    
+    public void Init()
     {
-        
+        for (int i = 0; i < legList.Count; i++)
+        {
+            legList[i].Init();
+
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+    
 }
