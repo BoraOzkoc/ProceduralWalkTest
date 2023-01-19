@@ -72,6 +72,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 4060981939175635873}
+  hint: {fileID: 4060981939702170780}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 8
   threshHold: 1
 --- !u!1 &4060981938134641619
 GameObject:
@@ -319,6 +323,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 4060981938134641612}
+  hint: {fileID: 4060981940092341910}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 8
   threshHold: 1
 --- !u!1 &4060981939175635872
 GameObject:
@@ -423,6 +431,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 4060981940119932976}
+  hint: {fileID: 4060981938357638079}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 8
   threshHold: 1
 --- !u!1 &4060981939702170787
 GameObject:
@@ -527,6 +539,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 4060981938517677360}
+  hint: {fileID: 4060981938787381001}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 8
   threshHold: 1
 --- !u!1 &4060981940092341909
 GameObject:
